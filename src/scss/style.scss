@@ -39,8 +39,10 @@ header {
         margin-right: 50px;
       }
       &:first-child {
-        li:not(:first-child) {
-          color: white !important;
+        &:hover {
+          li:not(:first-child) {
+            color: white !important;
+          }
         }
         li {
           &:first-child {
